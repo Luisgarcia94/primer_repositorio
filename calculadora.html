@@ -11,8 +11,13 @@
 <body>
     <script>
         /*Crear 3 funciones distintas, la 1era que sume 2 números, 
-                                                                                        la 2da que los reste y la 3era que llame a las 2 funciones anteriores
-                                                                                        */
+                                la 2da que los reste y la 3era que llame a las 2 funciones anteriores
+                                */
+
+        //creamos variables
+
+        var a = parseInt.prompt("Ingresa tu número");
+        var b = parseInt.prompt("Ingresa tu número");
 
         //Creamos primera función
 
@@ -33,6 +38,12 @@
             suma(a, b);
             resta(a, b);
         }
+
+        //llamado a las funciones
+
+        suma(a, b);
+        resta(a, b);
+        sumaResta(a, b);
     </script>
 </body>
 
