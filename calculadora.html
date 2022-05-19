@@ -11,24 +11,28 @@
 <body>
     <script>
         /*Crear 3 funciones distintas, la 1era que sume 2 números, 
-                la 2da que los reste y la 3era que llame a las 2 funciones anteriores
-                */
+                                                                                        la 2da que los reste y la 3era que llame a las 2 funciones anteriores
+                                                                                        */
 
         //Creamos primera función
 
         function suma(a, b) {
-            console.log(a + b);
+            console.log("El resultado de la suma es: " + (a + b));
         }
-
-        suma(5, 3); //llamado a la función
 
         //Creamos segunda función
 
         function resta(a, b) {
-            console.log(a - b);
+            console.log("El resultado de la resta es: " + (a - b));
         }
 
-        resta(a, b) //llamado a la función
+
+        //Creamos tercera función
+
+        function sumaResta(a, b) {
+            suma(a, b);
+            resta(a, b);
+        }
     </script>
 </body>
 
